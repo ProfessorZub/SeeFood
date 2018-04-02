@@ -20,7 +20,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         // Set up imagePicker that will be displayed when the camera button is tapped (see cameraTapped method)
         imagePicker.delegate = self
-        imagePicker.sourceType = .camera
+        imagePicker.sourceType = .photoLibrary
         imagePicker.allowsEditing = false  //May want to change to true later on
         
     
